@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <div>
-      <Menubar model={[
+      <Menubar start={(<img src="/images/logo.png" alt="logo" className="w-4rem h-4rem"/>)} model={[
         {
           label:"Home",
         },
