@@ -15,7 +15,7 @@ export default function Home() {
               </section>
           </div>
           <div className="col-12 md:col-6 overflow-hidden">
-              <img src="/images/hero.jpg" alt="hero-1" className="md:ml-auto block" height={500} style={{ clipPath: 'polygon(8% 0, 100% 0%, 100% 100%, 0 100%)' }} />
+              <img src="images/hero.jpg" alt="hero-1" className="md:ml-auto block" height={500} style={{ clipPath: 'polygon(8% 0, 100% 0%, 100% 100%, 0 100%)' }} />
           </div>
       </div>
       
