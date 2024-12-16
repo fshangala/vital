@@ -1,6 +1,8 @@
 import {Card} from 'primereact/card'
+import { useLocation } from 'react-router-dom'
 
 export default function Footer() {
+  const location = useLocation()
   return (
     <Card>
       <div className="flex flex-row justify-content-center align-items-center gap-2">
