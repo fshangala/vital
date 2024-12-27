@@ -2,7 +2,7 @@
 ## Project Proposal
 
 ### Overview
-We propose to develop a modern and responsive graphic designing and blog website using React. This platform will showcase our design portfolio, offer design services, and feature a blog to share insights and updates.
+Modern and responsive graphic designing and blog website using React. This platform will showcase our design portfolio, offer design services, and feature a blog to share insights and updates.
 
 ### Objectives
 - Create a visually appealing and user-friendly website.
