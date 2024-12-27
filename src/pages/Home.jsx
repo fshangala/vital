@@ -6,9 +6,9 @@ export default function Home() {
       <div className="grid grid-nogutter surface-section text-800">
           <div className="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
               <section>
-                  <span className="block text-6xl font-bold mb-1">Create the screens your</span>
-                  <div className="text-6xl text-primary font-bold mb-3">your visitors deserve to see</div>
-                  <p className="mt-0 mb-4 text-700 line-height-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <span className="block text-6xl font-bold mb-1">Vital Graphics & Consultancy</span>
+                  <div className="text-6xl text-primary font-bold mb-3">Where Design Meets Strategy</div>
+                  <p className="mt-0 mb-4 text-700 line-height-3">From Concept to Completion: Design Solutions Tailored to Your Vision.</p>
 
                   <Button label="Learn More" type="button" className="mr-3 p-button-raised"></Button>
                   <Button label="Live Demo" type="button" className="p-button-outlined"></Button>

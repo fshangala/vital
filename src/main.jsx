@@ -7,6 +7,7 @@ import "primeflex/primeflex.css"
 import App from './App.jsx'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.jsx';
+import ServicesPage from './pages/ServicesPage.jsx';
 
 const router = createHashRouter([
   {
@@ -16,6 +17,10 @@ const router = createHashRouter([
       {
         path:"",
         element:<Home/>
+      },
+      {
+        path:"services",
+        element: <ServicesPage />
       }
     ]
   }
