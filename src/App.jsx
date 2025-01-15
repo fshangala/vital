@@ -1,34 +1,11 @@
-import { Menubar } from 'primereact/menubar';
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
+import Header from './components/Header';
         
 export default function App() {
-  const navigate = useNavigate()
   return (
     <div>
-      <Menubar start={(<img src="images/logo.png" alt="logo" className="w-4rem h-4rem"/>)} model={[
-        {
-          label:"Home",
-          command: ()=>{
-            navigate("/")
-          }
-        },
-        {
-          label:"Services",
-          command: ()=>{
-            navigate("/services")
-          }
-        },
-        {
-          label:"Portfolio",
-        },
-        {
-          label:"About Us"
-        },
-        {
-          label:"Contact Us"
-        }
-      ]} />
+      <Header />
       <div className='p-4'>
         <Outlet />
       </div>
